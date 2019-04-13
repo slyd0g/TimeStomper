@@ -2,7 +2,7 @@
 PoC that manipulates Windows file times using SetFileTime() API
 
 # Usage
-                 <TimeStomper Usage>
+```                 <TimeStomper Usage>
 
 NOTE: All times are interpreted as UTC.
       Milliseconds are always random.
@@ -21,6 +21,7 @@ Example:
    -m r -p C:\full\path (set last modified time at C:\full\path to random date and time)
    -z 10-20-1994 14:2:01 -p C:\full\path -r (recursively set MAC time for files under C:\full\path to October 20, 1994 2:02:01 PM)
    -p C:\full\path -p2 C:\full\path2 (copies MAC time from C:\full\path2 to C:\full\path)
+```
 
 # Blogpost
 TO-COME
