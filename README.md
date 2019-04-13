@@ -1,10 +1,10 @@
 # TimeStomper
 PoC that manipulates Windows file times using SetFileTime() API
 
-#Blogpost
+# Blogpost
 TO-COME
 
-#References
+# References
 https://stackoverflow.com/questions/67273/how-do-you-iterate-through-every-file-directory-recursively-in-standard-c
 https://github.com/rapid7/meterpreter/blob/master/source/extensions/priv/server/timestomp.c
 https://cyberforensicator.com/2018/03/25/windows-10-time-rules/
