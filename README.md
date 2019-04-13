@@ -2,7 +2,7 @@
 PoC that manipulates Windows file times using SetFileTime() API
 
 # Usage
-```                 <TimeStomper Usage>
+```                 TimeStomper Usage
 
 NOTE: All times are interpreted as UTC.
       Milliseconds are always random.
