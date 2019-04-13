@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  TimeStomper.cpp
+c:\users\john\source\repos\timestomper\timestomper\timestomper.cpp(76): warning C4838: conversion from 'int' to 'WORD' requires a narrowing conversion
+  Generating code
+  All 306 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  TimeStomper.vcxproj -> C:\Users\John\source\repos\TimeStomper\Release\TimeStomper.exe
