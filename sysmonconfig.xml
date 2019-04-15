@@ -1,3 +1,6 @@
+<!--
+  Author: https://twitter.com/Cyb3rWard0g
+-->
 <Sysmon schemaversion="4.2">
    <EventFiltering>
       <!-- Event ID 2 == File Creation Time. Log file creation time modifications -->
