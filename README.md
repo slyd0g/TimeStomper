@@ -28,9 +28,15 @@ Example:
 TO-COME
 
 # References
+https://www.forensicswiki.org/wiki/Timestomp
+
 https://stackoverflow.com/questions/67273/how-do-you-iterate-through-every-file-directory-recursively-in-standard-c
 
 https://github.com/rapid7/meterpreter/blob/master/source/extensions/priv/server/timestomp.c
+
+http://www.invoke-ir.com/2016/02/forensic-friday-get-forensicfilerecord_5.html
+
+https://powerforensics.readthedocs.io/en/latest/modulehelp/Get-ForensicFileRecord/
 
 https://cyberforensicator.com/2018/03/25/windows-10-time-rules/
 
@@ -46,4 +52,4 @@ https://gallery.technet.microsoft.com/scriptcenter/Get-MFT-Timestamp-of-a-file-9
 
 https://learn-powershell.net/2013/03/03/finding-a-files-mft-timestamp-using-powershell/
 
-https://www.forensicswiki.org/wiki/Timestomp
+
