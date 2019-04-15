@@ -5,6 +5,7 @@
          <FileCreateTime onmatch="exclude">
             <Image condition="image">RuntimeBroker.exe</Image>
             <Image condition="image">backgroundTaskHost.exe</Image>
+            <Image condition="image">chrome.exe</Image>
          </FileCreateTime>
       </RuleGroup>
    </EventFiltering>
