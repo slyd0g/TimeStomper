@@ -1,0 +1,11 @@
+<Sysmon schemaversion="4.2">
+   <EventFiltering>
+      <!-- Event ID 2 == File Creation Time. Log file creation time modifications -->
+      <RuleGroup name="technique_id=T1099,tactic=Timestomp" groupRelation="or">
+         <FileCreateTime onmatch="exclude">
+            <Image condition="image">RuntimeBroker.exe</Image>
+            <Image condition="image">backgroundTaskHost.exe</Image>
+         </FileCreateTime>
+      </RuleGroup>
+   </EventFiltering>
+</Sysmon>
