@@ -25,7 +25,7 @@ Example:
 ```
 
 # Blogpost
-TO-COME
+https://posts.specterops.io/revisiting-ttps-timestomper-622d4c28a655
 
 # References
 https://www.forensicswiki.org/wiki/Timestomp
