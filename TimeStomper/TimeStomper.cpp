@@ -364,7 +364,7 @@ int main(int argc, char **argv)
 			c_flag = 1;
 
 			//Get file handle
-			hHandle = CreateFileA(path2.c_str(), FILE_WRITE_ATTRIBUTES, 0, NULL, OPEN_EXISTING, FILE_FLAG_BACKUP_SEMANTICS, NULL);
+			hHandle = CreateFileA(path2.c_str(), FILE_READ_ATTRIBUTES, 0, NULL, OPEN_EXISTING, FILE_FLAG_BACKUP_SEMANTICS, NULL);
 			if (hHandle == INVALID_HANDLE_VALUE)
 			{
 				cout << "CreateFileA() fail on " << path2 << "." << " SYSTEM ERROR: " << GetLastError() << "\n";
